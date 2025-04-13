@@ -28,7 +28,7 @@ let package = Package(
         .target(
             name: "CompoundPredicate",
             dependencies: [
-                .product(name: "IssueReporting", package: "swift-issue-reporting")
+                .product(name: "IssueReportingAlias", package: "swift-issue-reporting")
             ]
         ),
         .testTarget(
