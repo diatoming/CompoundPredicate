@@ -22,7 +22,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/noahkamara/swift-xctesting", branch: "main"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.1.0"),
-        .package(url: "https://github.com/pointfreeco/swift-issue-reporting", from: "1.5.2")
+        .package(url: "https://github.com/pointfreeco/swift-issue-reporting", from: "1.5.2", moduleAliases: ["IssueReporting": "IssueReportingAlias"])
     ],
     targets: [
         .target(
